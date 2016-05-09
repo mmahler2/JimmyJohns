@@ -1,12 +1,14 @@
 
 # Jimmy John's - The Unofficial API
 
+
+
 ## Get Food:
 
 ```js
 var jj = require('Jimmy-Johns');
 
-var all_sandwiches = jj.get_menu());
+var all_sandwiches = jj.get_menu();
 var sandwich = (all_sandwiches[0]).data;
 
 var options = {}; //eek! see below for the long story.
