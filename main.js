@@ -261,11 +261,11 @@ var JJ = {
     },
     function (error, response, body) {
       if (!error) {
-        callback(false, {message:"There was a network error :("});
+        callback(false, true, {message:"There was a network error :("});
       }
       else {
         console.log(JSON.stringify(body));
-        callback(body);
+        callback(true, false, body);
       }
     });
   }
