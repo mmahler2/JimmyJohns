@@ -1,7 +1,9 @@
 
 # Jimmy John's - The Unofficial API
 
-
+```
+npm install Jimmy-Johns
+```
 
 ## Get Food:
 
