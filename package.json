@@ -1,7 +1,7 @@
 {
   "name": "Jimmy-Johns",
   "description": "An unofficial request-based API for ordering sandwiches n' stuff.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "main.js",
   "scripts": {
     "start": "node main.js"
